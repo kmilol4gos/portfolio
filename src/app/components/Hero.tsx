@@ -3,11 +3,7 @@ import { LinkedIn, Mail } from "@/app/assets/Icons";
 
 export default function Hero() {
 	return (
-		<section
-			className={
-				"py-24 mx-44 flex flex-col items-center gap-7 text-neutral-900 dark:text-neutral-300"
-			}
-		>
+		<section className="h-full flex flex-col items-center gap-7 text-neutral-900 dark:text-neutral-300">
 			<article className="flex justify-center items-center gap-5 ">
 				<div>
 					<Image

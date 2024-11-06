@@ -43,3 +43,96 @@ export const Mail = (props: SVGProps<SVGSVGElement>) => (
 		<path d="M3 7l9 6l9 -6" />
 	</svg>
 );
+
+export const Location = (props: SVGProps<SVGSVGElement>) => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={24}
+		height={24}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke="currentColor"
+		strokeWidth={2}
+		strokeLinecap="round"
+		strokeLinejoin="round"
+		className="icon icon-tabler icons-tabler-outline icon-tabler-location"
+		{...props}
+	>
+		<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+		<path d="M21 3l-6.5 18a.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a.55 .55 0 0 1 0 -1l18 -6.5" />
+	</svg>
+);
+
+export const CalendarEvent = (props: SVGProps<SVGSVGElement>) => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={24}
+		height={24}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke="currentColor"
+		strokeWidth={2}
+		strokeLinecap="round"
+		strokeLinejoin="round"
+		className="icon icon-tabler icons-tabler-outline icon-tabler-calendar-event"
+		{...props}
+	>
+		<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+		<path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z" />
+		<path d="M16 3l0 4" />
+		<path d="M8 3l0 4" />
+		<path d="M4 11l16 0" />
+		<path d="M8 15h2v2h-2z" />
+	</svg>
+);
+
+export const Buildings = (props: SVGProps<SVGSVGElement>) => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={24}
+		height={24}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke="currentColor"
+		strokeWidth={2}
+		strokeLinecap="round"
+		strokeLinejoin="round"
+		className="icon icon-tabler icons-tabler-outline icon-tabler-buildings"
+		{...props}
+	>
+		<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+		<path d="M4 21v-15c0 -1 1 -2 2 -2h5c1 0 2 1 2 2v15" />
+		<path d="M16 8h2c1 0 2 1 2 2v11" />
+		<path d="M3 21h18" />
+		<path d="M10 12v0" />
+		<path d="M10 16v0" />
+		<path d="M10 8v0" />
+		<path d="M7 12v0" />
+		<path d="M7 16v0" />
+		<path d="M7 8v0" />
+		<path d="M17 12v0" />
+		<path d="M17 16v0" />
+	</svg>
+);
+
+export const Briefcase = (props: SVGProps<SVGSVGElement>) => (
+	<svg
+		xmlns="http://www.w3.org/2000/svg"
+		width={24}
+		height={24}
+		viewBox="0 0 24 24"
+		fill="none"
+		stroke="currentColor"
+		strokeWidth={2}
+		strokeLinecap="round"
+		strokeLinejoin="round"
+		className="icon icon-tabler icons-tabler-outline icon-tabler-briefcase"
+		{...props}
+	>
+		<path stroke="none" d="M0 0h24v24H0z" fill="none" />
+		<path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z" />
+		<path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2" />
+		<path d="M12 12l0 .01" />
+		<path d="M3 13a20 20 0 0 0 18 0" />
+	</svg>
+);
