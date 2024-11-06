@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { LinkedIn, Mail } from "@/app/assets/Icons";
+import { Download, LinkedIn, Mail } from "@/app/assets/Icons";
 
 export default function Hero() {
 	return (
@@ -48,6 +48,15 @@ export default function Hero() {
 					>
 						<LinkedIn className="w-6 h-6" />
 						LinkedIn
+					</a>
+					<a
+						href="./Camilo_Lagos_CV.pdf"
+						target="_blank"
+						rel="noreferrer noopener"
+						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 hover:text-neutral-300 transition-colors flex items-center gap-1"
+					>
+						<Download className="w-6 h-6" />
+						Curriculum
 					</a>
 				</section>
 			</article>

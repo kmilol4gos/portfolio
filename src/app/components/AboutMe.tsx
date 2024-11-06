@@ -2,10 +2,10 @@ import { User } from "../assets/Icons";
 
 function AboutMe() {
 	return (
-		<section className="text-neutral-900">
+		<section className="text-neutral-600">
 			<header className="mb-5">
 				<h2
-					className="text-2xl font-bold flex items-center gap-2"
+					className="text-2xl font-bold flex items-center gap-2 text-neutral-900"
 					id="Sobre-mi"
 				>
 					<User className="w-8 h-8" />
