@@ -1,6 +1,8 @@
+import AboutMe from "./components/AboutMe";
 import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Project from "./components/Projects";
 
 export default function Home() {
 	return (
@@ -13,6 +15,12 @@ export default function Home() {
 				</section>
 				<section className="my-5 mx-10 ">
 					<Experience projects={[]} />
+				</section>
+				{/* <section className="my-5 mx-10">
+					<Project />
+				</section> */}
+				<section className="my-5 mx-10">
+					<AboutMe />
 				</section>
 			</div>
 		</main>

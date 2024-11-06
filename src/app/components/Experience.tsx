@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import ProjectCard from "./ui/components/ProjectCard";
 import { Briefcase } from "../assets/Icons";
 
-interface Project {
+interface Experience {
 	id: number;
 	title: string;
 	date: string;
@@ -13,18 +13,18 @@ interface Project {
 	company: string;
 }
 
-interface ProjectsPageProps {
-	projects: Project[];
+interface ExperiencePageProps {
+	projects: Experience[];
 }
 
-const ProjectsPage: React.FC<ProjectsPageProps> = () => {
-	const [projects, setProjects] = useState<Project[]>([]);
+const ExperiencePage: React.FC<ExperiencePageProps> = () => {
+	const [projects, setProjects] = useState<Experience[]>([]);
 
 	useEffect(() => {
 		const fetchProjects = async () => {
 			try {
 				const response = await fetch("http://localhost:3000/api/projects");
-				const data: Project[] = await response.json();
+				const data: Experience[] = await response.json();
 				setProjects(data);
 			} catch (error) {
 				console.error("Error: ", error);
@@ -43,9 +43,8 @@ const ProjectsPage: React.FC<ProjectsPageProps> = () => {
 					<Briefcase className="w-8 h-8" />
 					Experiencia Laboral
 				</h2>
-				<h3 className="">
-					Aquí se encuentran los lugares donde he trabajado y/o proyectos que he
-					participado.
+				<h3>
+					Aquí se encuentran los lugares donde he trabajado y/o participado
 				</h3>
 			</header>
 			<section className="flex flex-col gap-4">
@@ -65,4 +64,4 @@ const ProjectsPage: React.FC<ProjectsPageProps> = () => {
 	);
 };
 
-export default ProjectsPage;
+export default ExperiencePage;
