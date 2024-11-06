@@ -23,7 +23,12 @@ export default function Hero() {
 			</article>
 			<article className="flex flex-col items-start max-w-2xl gap-5">
 				<p className="text-neutral-600">
-					2 años de experiencia en desarrollo de software y gestión de proyectos
+					<strong>Ingeniero Civil en Informática</strong> de Santiago, Chile 🇨🇱.
+					Con <strong>experiencia en liderazgo tecnológico </strong> y
+					<strong> desarrollo full-stack</strong>, enfocado en proyectos
+					<strong> innovadores y sostenibles</strong>. Especialista en
+					tecnologías como React, Node.js y AWS, además de metodologías ágiles
+					para impulsar la eficiencia en proyectos digitales.
 				</p>
 				<section className="flex gap-5">
 					<a

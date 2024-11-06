@@ -44,7 +44,7 @@ const ProjectsPage: React.FC<ProjectsPageProps> = () => {
 					Experiencia Laboral
 				</h2>
 				<h3 className="">
-					Aquí se encuentran los lugares donde he trabajado o proyectos que he
+					Aquí se encuentran los lugares donde he trabajado y/o proyectos que he
 					participado.
 				</h3>
 			</header>
