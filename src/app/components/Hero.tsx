@@ -35,7 +35,7 @@ export default function Hero() {
 						href="mailto:c.lagositurriaga@gmail.com"
 						target="_blank"
 						rel="noreferrer noopener"
-						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 dark:border-neutral-50 dark:hover:bg-neutral-100 dark:hover:text-neutral-900 transition-colors flex items-center gap-1"
+						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 hover:text-neutral-100 dark:border-neutral-50 dark:hover:bg-neutral-100 dark:hover:text-neutral-900 transition-colors flex items-center gap-1"
 					>
 						<Mail className="w-6 h-6" />
 						Contáctame
@@ -44,7 +44,7 @@ export default function Hero() {
 						href="https://www.linkedin.com/in/camilolagositurriaga/"
 						target="_blank"
 						rel="noreferrer noopener"
-						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 dark:border-neutral-50 dark:hover:bg-neutral-100 dark:hover:text-neutral-900 transition-colors flex items-center gap-1"
+						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 hover:text-neutral-100 dark:border-neutral-50 dark:hover:bg-neutral-100 dark:hover:text-neutral-900 transition-colors flex items-center gap-1"
 					>
 						<LinkedIn className="w-6 h-6" />
 						LinkedIn
@@ -53,7 +53,7 @@ export default function Hero() {
 						href="./Camilo_Lagos_CV.pdf"
 						target="_blank"
 						rel="noreferrer noopener"
-						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 dark:border-neutral-50 dark:hover:bg-neutral-100 dark:hover:text-neutral-900 transition-colors flex items-center gap-1"
+						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 hover:text-neutral-100 dark:border-neutral-50 dark:hover:bg-neutral-100 dark:hover:text-neutral-900 transition-colors flex items-center gap-1"
 					>
 						<Download className="w-6 h-6" />
 						Curriculum
