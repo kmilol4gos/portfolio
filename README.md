@@ -4,13 +4,15 @@ Este repositorio contiene el portafolio personal de kmilol4gos.
 
 ## Descripción General
 
-Este portafolio muestra los proyectos y habilidades de kmilol4gos, utilizando principalmente TypeScript, CSS y JavaScript.
+Este portafolio muestra los proyectos y habilidades de kmilol4gos, utilizando principalmente TypeScript, CSS, JavaScript, Next.js, y Tailwind CSS. También incluye una API creada con Next.js.
 
 ## Estructura del Repositorio
 
 - **TypeScript**: El lenguaje principal utilizado en el portafolio.
-- **CSS**: Utilizado para el estilo del portafolio.
 - **JavaScript**: Scripts adicionales y funcionalidades.
+- **Next.js**: Framework utilizado para el desarrollo del portafolio.
+- **Tailwind CSS**: Framework de CSS utilizado para el diseño y estilo.
+- **API**: Creada con Next.js para manejar las funcionalidades del backend.
 
 ## Uso
 
