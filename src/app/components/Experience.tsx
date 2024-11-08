@@ -34,10 +34,10 @@ const ExperiencePage = () => {
 	}, []);
 
 	return (
-		<section className="text-neutral-600 ">
+		<section className="text-neutral-600 dark:text-neutral-200">
 			<header className="flex flex-col gap-1 mb-5">
 				<h2
-					className="text-2xl font-bold text-neutral-900 flex items-center gap-2"
+					className="text-2xl font-bold text-neutral-900 dark:text-neutral-100 flex items-center gap-2"
 					id="Experiencia"
 				>
 					<Briefcase className="w-8 h-8" />

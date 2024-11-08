@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 	return (
 		<article
 			key={id}
-			className="flex flex-col border border-neutral-950 rounded-md p-6 text-neutral-950 hover:scale-105 transition-transform"
+			className="flex flex-col border border-neutral-950 dark:border-neutral-300 dark:text-neutral-100 rounded-md p-6 text-neutral-900 hover:scale-105 transition-transform"
 		>
 			<section>
 				<h3 className="text-xl font-bold">{title}</h3>

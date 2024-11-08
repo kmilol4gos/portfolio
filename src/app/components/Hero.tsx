@@ -3,7 +3,7 @@ import { Download, LinkedIn, Mail } from "@/app/assets/Icons";
 
 export default function Hero() {
 	return (
-		<section className="h-full flex flex-col items-center gap-7 text-neutral-900 dark:text-neutral-300">
+		<section className="h-full flex flex-col items-center gap-7 text-neutral-900 dark:text-neutral-100">
 			<article className="flex justify-center items-center gap-5 ">
 				<div>
 					<Image
@@ -11,18 +11,18 @@ export default function Hero() {
 						width={150}
 						height={150}
 						alt={"Camilo Lagos"}
-						className="rounded-full border border-neutral-950"
+						className="rounded-full border border-neutral-950 dark:border-neutra-50"
 					/>
 				</div>
 				<div className="flex flex-col gap-1">
 					<h1 className="text-3xl font-bold ">Camilo Lagos Iturriaga</h1>
-					<h3 className="text-neutral-600 font-medium text-xl">
+					<h3 className="text-neutral-600 dark:text-neutral-200 font-medium text-xl">
 						Desarrollador Full Stack
 					</h3>
 				</div>
 			</article>
 			<article className="flex flex-col items-start max-w-2xl gap-5">
-				<p className="text-neutral-600">
+				<p className="text-neutral-600 dark:text-neutral-200">
 					<strong>Ingeniero Civil en Informática</strong> de Santiago, Chile 🇨🇱.
 					Con <strong>experiencia en liderazgo tecnológico </strong> y
 					<strong> desarrollo full-stack</strong>, enfocado en proyectos
@@ -35,7 +35,7 @@ export default function Hero() {
 						href="mailto:c.lagositurriaga@gmail.com"
 						target="_blank"
 						rel="noreferrer noopener"
-						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 hover:text-neutral-300 transition-colors flex items-center gap-1"
+						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 dark:border-neutral-50 dark:hover:bg-neutral-100 dark:hover:text-neutral-900 transition-colors flex items-center gap-1"
 					>
 						<Mail className="w-6 h-6" />
 						Contáctame
@@ -44,7 +44,7 @@ export default function Hero() {
 						href="https://www.linkedin.com/in/camilolagositurriaga/"
 						target="_blank"
 						rel="noreferrer noopener"
-						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 hover:text-neutral-300 transition-colors flex items-center gap-1"
+						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 dark:border-neutral-50 dark:hover:bg-neutral-100 dark:hover:text-neutral-900 transition-colors flex items-center gap-1"
 					>
 						<LinkedIn className="w-6 h-6" />
 						LinkedIn
@@ -53,7 +53,7 @@ export default function Hero() {
 						href="./Camilo_Lagos_CV.pdf"
 						target="_blank"
 						rel="noreferrer noopener"
-						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 hover:text-neutral-300 transition-colors flex items-center gap-1"
+						className="py-2 px-4 border border-neutral-950 rounded-full hover:bg-neutral-900 dark:border-neutral-50 dark:hover:bg-neutral-100 dark:hover:text-neutral-900 transition-colors flex items-center gap-1"
 					>
 						<Download className="w-6 h-6" />
 						Curriculum

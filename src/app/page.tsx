@@ -14,7 +14,7 @@ export default function Home() {
 					<Hero />
 				</section>
 				<section className="my-5 mx-10 ">
-					<Experience projects={[]} />
+					<Experience />
 				</section>
 				{/* <section className="my-5 mx-10">
 					<Project />
