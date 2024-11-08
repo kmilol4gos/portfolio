@@ -13,24 +13,24 @@ interface Experience {
 	company: string;
 }
 
-interface ExperiencePageProps {
-	projects: Experience[];
-}
-
-const ExperiencePage: React.FC<ExperiencePageProps> = () => {
-	const [projects, setProjects] = useState<Experience[]>([]);
+const ExperiencePage = () => {
+	const [experience, setExperience] = useState<Experience[]>([]);
+	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
-		const fetchProjects = async () => {
+		const fetchExperience = async () => {
 			try {
-				const response = await fetch("http://localhost:3000/api/projects");
-				const data: Experience[] = await response.json();
-				setProjects(data);
+				const res = await fetch("http://localhost:3000/api/Experience");
+				const data = await res.json();
+				setExperience(data || []);
 			} catch (error) {
-				console.error("Error: ", error);
+				console.error("Error al cargar la experiencia laboral:", error);
+			} finally {
+				setLoading(false);
 			}
 		};
-		fetchProjects();
+
+		fetchExperience();
 	}, []);
 
 	return (
@@ -48,17 +48,23 @@ const ExperiencePage: React.FC<ExperiencePageProps> = () => {
 				</h3>
 			</header>
 			<section className="flex flex-col gap-4">
-				{projects.map((project) => (
-					<ProjectCard
-						key={project.id}
-						id={project.id}
-						title={project.title}
-						date={project.date}
-						description={project.description}
-						ubication={project.ubication}
-						company={project.company}
-					/>
-				))}
+				{loading ? (
+					<p>Cargando...</p>
+				) : experience.length > 0 ? (
+					experience.map((exp) => (
+						<ProjectCard
+							key={exp.id}
+							id={exp.id}
+							title={exp.title}
+							date={exp.date}
+							description={exp.description}
+							ubication={exp.ubication}
+							company={exp.company}
+						/>
+					))
+				) : (
+					<p>No hay experiencia laboral registrada</p>
+				)}
 			</section>
 		</section>
 	);

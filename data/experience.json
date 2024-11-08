@@ -1,0 +1,50 @@
+[
+	{
+		"id": 1,
+		"title": "Desarrollador Full-Stack",
+		"description": "En Jorvics, desarrollé un bot de WhatsApp usando Node.js y Docker, mejorando la atención al cliente y acelerando el proceso de respuestas en un 60%.",
+		"date": "Abril/2024 – Presente",
+		"ubication": "San Miguel, Chile",
+		"company": "Jorvics"
+	},
+	{
+		"id": 2,
+		"title": "Desarrollador Full-Stack en AccEx Teletón",
+		"description": "Lideré el desarrollo de AccEx con Electron para mejorar la accesibilidad web para personas con discapacidad, logrando un aumento del 25% en la usabilidad.",
+		"date": "Abril/2024 – Presente",
+		"ubication": "Santiago, Chile",
+		"company": "AccEx Teletón"
+	},
+	{
+		"id": 6,
+		"title": "Desarrollador Full-Stack (Práctica)",
+		"description": "En Alloxentric, desarrollé un sistema de síntesis de texto a voz (TTS) con Xtts 2.0 para mejorar las llamadas automáticas, y creé una API REST que reduce el tiempo de procesamiento a 3 segundos por audio.",
+		"date": "Marzo/2024 – Septiembre/2024",
+		"ubication": "Londres, Inglaterra",
+		"company": "Alloxentric"
+	},
+	{
+		"id": 3,
+		"title": "Chief Technology Officer (CTO)",
+		"description": "Lideré la creación de sitios web y aplicaciones móviles en Alphanex, diseñé mapas en tiempo real con React y AWS, y desarrollé NexGreen, una plataforma enfocada en sostenibilidad.",
+		"date": "Septiembre/2023 – Presente",
+		"ubication": "Santiago, Chile",
+		"company": "Alphanex"
+	},
+	{
+		"id": 4,
+		"title": "Miembro Club de Desarrollo",
+		"description": "Participé en el club ExDev de la Universidad Tecnológica Metropolitana, donde se desarrolla la aplicación Mi UTEM. Además estoy encargado de desarrollar el sitio web de este club.",
+		"date": "Marzo/2023 – Presente",
+		"ubication": "Santiago, Chile",
+		"company": "Universidad Tecnológica Metropolitana - ExDev"
+	},
+	{
+		"id": 5,
+		"title": "Desarrollador Front-end",
+		"description": "Participé en el desarrollo de un e-commerce para la PYME AquilaBrand, implementé un sistema de pago seguro con Transbank, y colaboré en el diseño de arquitectura front-end y back-end usando JavaScript, React y Node.js.",
+		"date": "Abril/2023 – Septiembre/2023",
+		"ubication": "Santiago, Chile",
+		"company": "AquilaBrand"
+	}
+]
